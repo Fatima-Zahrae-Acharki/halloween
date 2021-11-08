@@ -1,0 +1,1128 @@
+
+
+/* desktop */
+
+@media (min-width:1000px){
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header
+{
+    width: 100%;
+    height: 70px;
+    background-color: #380684;
+    background-image: url(right.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    
+}
+nav
+{
+    z-index: 9999;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    position: fixed;
+    background-color: #380684;
+    font-family: 'hi melody';
+
+    
+}
+#login:hover{
+    background-color: #EA8011;
+}
+.logo img
+{
+    height: 130px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.left-navig
+{
+    display: flex;
+    padding-left: 20px;
+}
+.left-navig ul 
+{
+    display: flex;
+    margin-left: -191px;
+    padding: 0 15rem;
+}
+.left-navig ul li
+{
+    list-style: none;
+    margin-top: 5px;
+    margin-right: 60px;
+
+
+}
+.left-navig ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 40px;
+
+}
+.right-navig a
+{
+    margin-right: 50px;
+    text-decoration: none;
+    text-decoration: none;
+    color: #fff;
+    
+}
+.treat
+{
+    width: 50%;
+
+}
+.treat h1
+{
+    font-family: 'monster pumpkin';
+    color: #EA8011;
+    text-align: left;
+    margin-left: 98px;
+    padding-top: 21px;
+    font-size: 40px;
+
+}
+.treat p
+{
+    font-family: 'hi melody';
+    color: #270865;
+    text-align: left;
+    font-size: 25px;
+    margin-top: -4px;
+    margin-left: 76px;
+    
+}
+.bgr
+{
+    width: 100%;
+}
+.bgr img
+{
+    width: 1191px;
+    height: 300px;
+    float: right;
+    padding: 0;
+    margin-top: -241px;
+
+}
+#discount
+{
+    height: 77px;
+    width: 62px;
+    margin-right: -257px;
+    margin-top: -91px;
+}
+#simple
+{
+    width: 8%;
+    height: 5%;
+    margin-top: -97px;
+    margin-right: 818px;
+}
+#bat
+{
+    width: 10%;
+    margin-top: -376px;
+    margin-right: 1133px;
+    
+}
+.pumpkins
+{
+    display: flex;
+    height: 100%;
+    margin-right: 50px;
+}
+.pumpkins h1
+{
+    margin-top: 33px;
+    margin-left: 70px;
+    font-family: 'monster pumpkin';
+    color: #EA8011;
+    
+}
+.pumpkins div
+{
+    margin-left: -31px;
+    margin-top: 179px;
+    margin-right: 202px;
+   
+
+}
+.pumpkins p
+{
+   
+    margin-top: 35px;
+    margin-right: -82px;
+    font-family: 'hi melody';
+    color: #380684;
+}
+
+
+
+#twin
+{
+    width: 150px;
+    border: #fff 2px solid;
+    border-radius: 10px;
+
+}
+#vegeta
+{
+    width:  99px;
+    border: #fff 2px solid;
+    border-radius: 10px;
+
+}
+#kirby
+{
+    width: 104px;
+    border: #fff 2px solid;
+    border-radius: 10px;
+
+}
+#evil
+{
+    width: 121px;
+    border: #fff 2px solid;
+    border-radius: 10px;
+}
+.items img
+{
+    width: 238px;
+    height: 159px;
+    float: right;
+    padding: 0;
+    margin-top: -327px;
+    margin-right: -136;
+}
+#candy
+{
+    width: 20%;
+    height: 2%;
+    margin-top: -564px;
+    margin-right: 1014px;
+}
+#ghost
+{
+    width: 8%;
+    height: 2%;
+    margin-top: -532px;
+    margin-right: 632px;
+}
+#tree
+{
+    width: 15%;
+    margin-top: -159px;
+    margin-right: 1098px;
+}
+#spiders
+{
+    width: 15%;
+    margin-top: -548px;
+    margin-right: 1px;
+}
+.back
+{
+    background-color: #FFEBCF;
+    margin-top: 84px;
+    height: 547px;
+    z-index: 1000;
+}
+.p
+{
+    font-family: 'hi melody';
+    color: #EA8011;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -9px;
+    text-decoration: line-through;
+
+}
+.pro
+{
+    font-family: 'hi melody';
+    color:#EA8011;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -46px;
+
+}
+.btn:hover
+{
+    background-color:#EA8011;
+    
+} 
+button
+{
+   color: rgb(255, 255, 255);
+   background-color: #FFA931;
+   border-radius: 58px;
+   width:77px;
+   height: 41px;
+   outline: none;
+   border: none;
+  margin-left: 35px;
+  margin-top: -11px;
+  z-index: 1000;
+}
+
+
+
+.about
+{
+    background-color: #FFDAA7;
+    height: 324px;
+    width: 50%;
+    margin-top: -26px;
+    display: flex;
+}
+.about h1
+{
+    font-family: 'monster pumpkin';
+    color: #380684;
+    margin-top: 33px;
+    margin-left: 70px;
+    position: absolute;
+}
+.about p
+{
+    font-family: 'hi melody';
+    color: #380684;
+    margin-top: 80px;
+    margin-left: 62px;
+    background-position: center;
+    font-size: 23px;
+    text-align: left;
+    padding-top: 23px;
+    line-height: 35px;
+}
+.abt p
+{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #FFA931;
+    height: 160px;
+    width: 502px;
+} 
+#cupcake
+{
+    height: 90%;
+    margin-left: -66px;
+    margin-top: 180px;
+}
+#par
+{
+    align-content: center;
+}
+.feedback
+{
+    position: absolute;
+    font-family: 'monster pumpkin';
+    color: #380684;
+    margin-top: -324px;
+    margin-left: 632px;
+    
+    background-color: #F2EAFF;
+    height: 324px;
+    width: 50%;
+    
+}
+form input
+{
+    outline: none;
+    font-family: 'hi melody';
+    border: 2px solid #380684;
+    background-color: #F2EAFF;
+    border-radius: 5px;
+    flex-direction: column;
+    display: flex;
+    margin-left: 82px;
+    margin-top: 16px;
+    line-height: 40px;
+    height: 41px;
+    width: 369px;
+}
+
+#feed
+{
+    height: 90px;
+    
+}
+.submit
+{
+    margin-top: -20px;
+    margin-left: 525px;
+    z-index: 1000;
+    
+
+}
+#submitButton
+{
+    background-color: #380684;
+    font-family: 'hi melody';
+    color: white; 
+    font-size: 20px;
+    border-radius: 58px;
+    width:90px;
+    height: 40px;
+    outline: none;
+    border: none;
+   margin-left: -26px;
+   margin-top: -11px;
+   z-index: 1000;
+ 
+}
+#submitButton:hover
+{
+    background-color: #270865;
+    text-transform: uppercase;
+}
+
+
+
+/* .im
+{
+    height: 100%;
+    margin-top: -466px;
+    margin-left: 58px;
+} */
+.ima
+{
+    height: 100%;
+    margin-top: -466px;
+    margin-left: 58px;
+}
+#pum
+{
+    height: 35%;
+    margin-top: 208px;
+    margin-left: 433px;
+}
+#s
+{
+    height: 40px;
+    margin-top: 56px;
+    margin-left: -30px;
+}
+#go
+{
+    height: 302px;
+    margin-top: 53px;
+    margin-left: -467px;
+}
+
+
+
+.ft
+{
+    font-family: 'monster pumpkin';
+    color: #FFA931;
+    margin-top: 26px;
+    margin-left: 58px;
+    height: 90px;
+    
+}
+.social
+{
+    display: flex;
+    font-family: 'hi melody';
+    word-spacing: 129px;
+    margin-left: 299px;
+    margin-top: -59px;
+    font-size: 21px;
+    color: #380684;
+}
+.social i
+{
+    color: #FFA931;
+    
+}
+.pic
+{
+    height: 10%;
+    margin-top: 40px;
+}
+#lolli
+{
+    height: 150px;
+    margin-top: -266px;
+    margin-left: 836px;
+} 
+.lollip
+{
+    margin-top: -57px;
+}
+
+#witch
+{
+    height: 90px;
+    margin-top: -41px;
+    margin-left: 1109px;
+
+}
+.witch
+{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#green
+{
+    height: 25px;
+    margin-top: 0px;
+    margin-left: -531px; 
+}
+#skull
+{
+    height: 250px;
+    margin-top: -62px;
+    margin-left: 135px;
+
+}
+.sk
+{
+    margin-left: -74px;
+    margin-top: -155px;
+}
+.lftr
+{
+    background-color: #C2B4D7;
+    height: 30px;
+    width: 100%;
+    margin-top: -41px;
+}
+.privacy
+{
+    margin-left: 301px;
+    margin-top: 10px;
+    font-family: 'hi melody';
+    color: #380684;
+    font-size: 18px;
+}
+.sentence
+{
+    color: #EA8011;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* phone */  
+
+
+/* 414 x 736 : SIZE */
+
+
+@media (max-width: 1000px) {
+    body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header
+{
+    width: 100%;
+    height: 70px;
+    background-image: url(right.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    
+}
+nav
+{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    position: fixed;
+    background-color: #380684;
+    font-family: 'hi melody';
+
+    
+}
+.logo img
+{
+    height: 300px;
+}
+.left-navig
+{
+    display: none;
+    padding-left: 20px;
+}
+.left-navig ul 
+{
+    display: flex;
+    margin-left: -191px;
+    padding: 0 15rem;
+}
+.left-navig ul li
+{
+    list-style: none;
+    margin-top: 5px;
+    /* margin-right: 60px; */
+
+
+}
+.left-navig ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 40px;
+
+}
+.right-navig a
+{
+    
+    margin-right: 100px;
+    text-decoration: none;
+    color: #fff;
+    
+}
+#login{
+    font-family: 'hi melody';
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 40px;
+    height: 150px;
+    width: 300px;
+}
+#login:hover
+{
+    background-color: #EA8011;
+}
+
+.treat
+{
+    width: 50%;
+
+}
+.treat h1
+{
+    font-family: 'monster pumpkin';
+    color: #EA8011;
+    text-align: left;
+    margin-left: 6px;
+    font-size: 23px;
+    margin-top: 219px;
+    align-items: center;
+
+}
+.treat p
+{
+    font-family: 'hi melody';
+    color: #270865;
+    text-align: left;
+    font-size: 25px;
+    margin-top: 46px;
+    margin-left: 66px;
+    margin-right: -298px;
+    
+}
+.bgr
+{
+    width: 100%;
+}
+.bgr img
+{
+
+    width: 274%;
+    height: 340px;
+    float: right;
+    padding: 0;
+    margin-top: -279px;
+    margin-right: -838px;
+
+}
+#discount
+{
+    height: 114px;
+    width: 89px;
+    margin-right: -187px;
+    margin-top: -135px;
+}
+#simple
+{
+    width: 8%;
+    height: 5%;
+    margin-top: -97px;
+    margin-right: 818px;
+}
+#bat
+{
+    width: 10%;
+    margin-top: -376px;
+    margin-right: 1133px;
+    
+}
+.pumpkins
+{
+    display: flex;
+    height: 100%;
+    margin-right: 50px;
+}
+.pumpkins h1
+{
+    margin-top: 33px;
+    margin-left: 70px;
+    font-family: 'monster pumpkin';
+    color: #EA8011;
+    
+}
+.pumpkins div
+{
+    margin-left: -114px;
+    margin-top: 179px;
+    margin-right: 202px;
+   
+
+}
+.pumpkins p
+{
+   
+    margin-top: 20px;
+    margin-right: 0px;
+    font-family: 'hi melody';
+    font-size: 25px;
+    color: #380684;
+}
+
+
+
+#twin
+{
+    width: 281px;
+    border: #fff 2px solid;
+    border-radius: 10px;
+
+}
+#vegeta
+{
+    width:  185px;
+    border: #fff 2px solid;
+    border-radius: 10px;
+
+}
+#kirby
+{
+    width: 184px;
+    border: #fff 2px solid;
+    border-radius: 10px;
+
+}
+#evil
+{
+    width: 207px;
+    border: #fff 2px solid;
+    border-radius: 10px;
+}
+.items img
+{
+    width: 238px;
+    height: 159px;
+    float: right;
+    padding: 0;
+    margin-top: -327px;
+    margin-right: -136;
+}
+#candy
+{
+    width: 20%;
+    height: 2%;
+    margin-top: -856px;
+    margin-right: 1014px;
+}
+#ghost
+{
+    width: 8%;
+    height: 2%;
+    margin-top: -804px;
+    margin-right: 632px;
+}
+#tree
+{
+    width: 15%;
+    margin-top: -159px;
+    margin-right: 1098px;
+}
+#spiders
+{
+    width: 15%;
+    margin-top: -844px;
+    margin-right: 1px;
+}
+.back
+{
+    background-color: #FFEBCF;
+    margin-top: 84px;
+    height: 840px;
+    width: 303%;
+    z-index: 1000;
+}
+.p
+{
+    font-family: 'hi melody';
+    color: #EA8011;
+    font-size: 43px;
+    text-align: center;
+    margin-top: -6px;
+    text-decoration: line-through;
+
+}
+.pro
+{
+    font-family: 'hi melody';
+    color:#EA8011;
+    font-size: 51px;
+    text-align: center;
+    margin-top: -82px;
+
+}
+.btn:hover
+{
+    background-color:#EA8011;
+    
+} 
+button
+{
+   color: rgb(255, 255, 255);
+   background-color: #FFA931;
+   border-radius: 58px;
+   width:137px;
+   height: 74px;
+   outline: none;
+   border: none;
+  margin-left: 64px;
+  margin-top: -14px;
+  z-index: 1000;
+}
+
+
+
+.about
+{
+    background-color: #FFDAA7;
+    height: 453px;
+    width: 303%;
+    margin-top: -26px;
+    display: flex;
+}
+.about h1
+{
+    font-family: 'monster pumpkin';
+    color: #380684;
+    margin-top: 37px;
+    margin-left: 122px;
+    position: absolute;
+    font-size: 41px;
+}
+.about p
+{
+    font-family: 'hi melody';
+    color: #380684;
+    margin-top: 121px;
+    margin-left: 182px;
+    background-position: center;
+    font-size: 31px;
+    text-align: left;
+    padding-top: 39px;
+    line-height: 52px;
+}
+.abt p
+{
+    background-color: rgb(255, 255, 255);
+    border: 9px solid #FFA931;
+    height: 255px;
+    width: 858px;
+} 
+#cupcake
+{
+    height: 90%;
+    margin-left: -228px;
+    margin-top: 283px;
+}
+#par
+{
+    align-content: center;
+}
+.feedback
+{
+    position: absolute;
+    font-family: 'monster pumpkin';
+    color: #380684;
+    margin-top: 0px;
+    margin-left:0px;
+    
+    background-color: #F2EAFF;
+    height: 496px;
+    width: 303%;
+    
+}
+form input
+{
+    outline: none;
+    font-family: 'hi melody';
+    border: 2px solid #380684;
+    background-color: #F2EAFF;
+    border-radius: 5px;
+    flex-direction: column;
+    display: flex;
+    margin-left: 237px;
+    margin-top: 16px;
+    line-height: 40px;
+    height: 67px;
+    width: 665px;
+}
+
+#feed
+{
+    height: 187px;
+    
+}
+.submit
+{
+    margin-top: -62px;
+    margin-left: 509px;
+    z-index: 1000;
+    
+
+}
+#submitButton
+{
+    background-color: #380684;
+    font-family: 'hi melody';
+    color: white; 
+    font-size: 35px;
+    border-radius: 58px;
+    width:191px;
+    height: 95px;
+    outline: none;
+    border: none;
+   margin-left: 518px;
+   margin-top: -3px;
+   z-index: 1000;
+ 
+}
+#submitButton:hover
+{
+    background-color: #270865;
+    text-transform: uppercase;
+}
+
+
+
+/* .im
+{
+    height: 100%;
+    margin-top: -466px;
+    margin-left: 58px;
+} */
+.ima
+{
+    height: 100%;
+    margin-top: -466px;
+    margin-left: 58px;
+}
+#pum
+{
+    height: 49%;
+    margin-top: 33px;
+    margin-left: 945px;
+}
+#s
+{
+    height: 40px;
+    margin-top: 56px;
+    margin-left: 596px;
+}
+
+
+
+
+#go
+{
+    height: 302px;
+    margin-top: -84px;
+    margin-left: 194px;
+}
+
+#fb
+{
+    margin-top:-247px;
+    margin-left: 27px;
+}
+#tw
+{
+    margin-top:-240px;
+    margin-left: 90px;
+}
+#ins
+{
+    margin-top: -237px;
+    margin-left: 90px;
+}
+#em
+{
+    margin-top: -233px;
+    margin-left: 90px;
+}
+#ph
+{
+    margin-top: -229px;
+    margin-left: 90px;
+}
+
+
+
+.ft
+{
+    font-family: 'monster pumpkin';
+    color: #FFA931;
+    margin-top: 539px;
+    margin-left: 58px;
+    height: 56px;
+    
+}
+.social
+{
+    display: flex;
+    font-family: 'hi melody';
+    word-spacing: 117px;
+    margin-left: 299px;
+    margin-top: 253px;
+    font-size: 31px;
+    color: #380684;
+}
+.social i
+{
+    color: #FFA931;
+    
+}
+.pic
+{
+    height: 10%;
+    margin-top: 40px;
+}
+#lolli
+{
+    height: 150px;
+    margin-top: -317px;
+    margin-left: 836px;
+} 
+.lollip
+{
+    margin-top: -57px;
+}
+
+#witch
+{
+    height: 90px;
+    margin-top: 12px;
+    margin-left: 1109px;
+    display: none;
+
+}
+.witch
+{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#green
+{
+    height: 25px;
+    margin-top: 0px;
+    margin-left: -531px; 
+}
+#skull
+{
+    height: 303px;
+    margin-top: -177px;
+    margin-left: 135px;
+
+}
+.sk
+{
+    margin-left: -74px;
+    margin-top: -155px;
+}
+.lftr
+{
+    background-color: #C2B4D7;
+    height: 30px;
+    width: 303%;
+    margin-top: -44px;
+}
+.privacy
+{
+    margin-left: 301px;
+    margin-top: 34px;
+    font-family: 'hi melody';
+    color: #380684;
+    font-size: 18px;
+}
+.sentence
+{
+    color: #EA8011;
+}
+}
